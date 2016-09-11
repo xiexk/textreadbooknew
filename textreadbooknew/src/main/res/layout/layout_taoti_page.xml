@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/big_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/la_taoti_top_content"
+        android:layout_width="match_parent"
+        android:background="@color/yellow"
+        android:layout_height="match_parent" >
+
+        <WebView
+            android:id="@+id/parnet_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/handle"
+            android:layout_width="160px"
+            android:layout_height="40px"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/read_handle" />
+    </RelativeLayout>
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/taoti_viewpager"
+            android:layout_below="@+id/la_taoti_top_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/text_red"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+</LinearLayout>

@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/activity_bg" >
+
+    <WebView
+        android:id="@+id/subject_up"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/subject_check_box"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subject_up"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/sub_conten"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subject_check_box"
+        android:layout_marginTop="3dp" >
+
+        <TextView
+            android:id="@+id/sub_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/person_btn_bg"
+            android:gravity="center"
+            android:text="提交"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/sub_text_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sub_btn"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="直接查看答案!"
+            android:textColor="#4a9cfd" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/sp_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/sub_conten"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/w_split_green" />
+
+    <RelativeLayout
+        android:id="@+id/down_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sp_line"
+        android:layout_marginTop="3dp"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/item_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                android:id="@+id/text_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_yellow"
+                android:gravity="center"
+                android:text="我的答案"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/text_1_1_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_1_1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/item_1"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                android:id="@+id/text_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_yellow"
+                android:gravity="center"
+                android:text="参考答案"
+                android:textColor="#ffffff" />
+
+            <WebView
+                android:id="@+id/text_2_1_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_2_1"
+                android:layout_marginTop="3dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/item_2"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                android:id="@+id/text_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_yellow"
+                android:gravity="center"
+                android:text="点拨"
+                android:textColor="#ffffff" />
+
+            <WebView
+                android:id="@+id/text_3_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_3_1"
+                android:layout_marginTop="3dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/item_3"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                android:id="@+id/text_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg_yellow"
+                android:gravity="center"
+                android:text="解析"
+                android:textColor="#ffffff" />
+
+            <WebView
+                android:id="@+id/text_4_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_4_1"
+                android:layout_marginTop="3dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+
+    <!--=============================== drawable颜色=========================================-->
+    <drawable name="white_bg">#FFFFFF</drawable>
+    <drawable name="gray_bg">#E8E8E8</drawable>
+    <drawable name="half_transparent_bg">#aa000000</drawable>
+    <drawable name="full_transparent_bg">#00000000</drawable>
+
+
+    <!--=============================== 背景色=========================================-->
+
+    <!-- 界面通用背景图-->
+    <color name="activity_bg">#f0f0f0</color>
+    <!-- 界面顶部栏背景颜色-->
+    <color name="activity_head_bg">#18c7f3</color>
+    <!-- 输入框白色背景色-->
+    <color name="input_bg">#ffffff</color>
+    <!-- 编辑框背景-->
+    <color name="editbg">#03AFDA</color>
+    <!-- 白色-->
+    <color name="white">#ffffff</color>
+
+
+    <!--=============================== 字体颜色=========================================-->
+    <!-- 顶部字体颜色为界面背景颜色-->
+    <!-- 字体颜色黑色-->
+    <color name="text_black">#000000</color>
+    <!-- 字体灰色-->
+    <color name="text_gray">#333333</color>
+    <!-- 界面内容标题颜色-->
+    <color name="text_content">#999999</color>
+    <!-- 字体hint颜色-->
+    <color name="text_hint">#d2d2d2</color>
+    <!-- 字体颜色白色-->
+    <color name="text_whrite">#ffffff</color>
+    <!-- 错误提示的字体颜色-->
+    <color name="text_error">#B4B4B4</color>
+
+
+    <!--=============================== 透明色=========================================-->
+    <color name="half_transparent">#aa000000</color>
+    <color name="full_transparent">#00000000</color>
+
+
+    <!--=============================== 自定义控件颜色=========================================-->
+    <!-- 绿色 -->
+    <color name="green">#008000</color>
+    <!-- 蓝色按下颜色  没按下为通用背景蓝色-->
+    <color name="blue_press">#24d2fe</color>
+    <!-- 红色-->
+    <color name="text_red">#F35B32</color>
+    <!-- 红色按下颜色-->
+    <color name="red_press">#FF663D</color>
+    <!-- 黄色浅-->
+    <color name="yellow">#FEE13F</color>
+    <!-- 黄色深-->
+    <color name="yellow_deep">#B26721</color>
+    <!-- 黄色亮 按钮按下的颜色-->
+    <color name="yellow_light">#FFFF00</color>
+    <!-- 淡蓝色很淡的那种-->
+    <color name="blue_low">#DCF6FC</color>
+    <!-- 纵向线条颜色-->
+    <color name="line2">#C7C7C7</color>
+    <!-- 分割线颜色-->
+    <color name="line">#d4d4d4</color>
+    <!-- 亮灰-->
+    <color name="gray_light">#DCDCDC</color>
+</resources>

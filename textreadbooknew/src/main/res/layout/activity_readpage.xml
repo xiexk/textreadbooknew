@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/readPage_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg" >
+
+    <FrameLayout
+        android:id="@+id/f_wrp"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/space_45"
+        android:background="@color/activity_head_bg" >
+
+        <TextView
+            android:id="@+id/top_head_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_gravity="center"
+            android:maxEms="12"
+            android:singleLine="true"
+            android:text="NODATA"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/catalog_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="目录"
+            android:textColor="@color/activity_head_bg" />
+
+        <Button
+            android:id="@+id/collection_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="收藏"
+            android:textColor="@color/activity_head_bg" />
+
+        <Button
+            android:id="@+id/write_notes_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="写笔记"
+            android:textColor="@color/activity_head_bg" />
+
+        <Button
+            android:id="@+id/share_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="分享"
+            android:textColor="@color/activity_head_bg" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/read_page_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/f_wrp"
+        android:background="@color/activity_bg"
+        android:layout_above="@id/bottom_layout" >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>
